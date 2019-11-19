@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/js/start.js"></script>
+</head>
+<body>
+  <div class="page1">
+
+ 
+    <div class="bodyy">
+      <div class="left-image">
+        <img id="logo" src="https://changemakersvillage.org/wp-content/uploads/2015/12/SMART-LOGO-white-750x510.png">
+      </div>
+      <div class="middle-text"><h1>TEAM J S</h1></div>
+      <div class="right-side"> </div>
+      <div class="center-img"><img src="https://www.itsquiztime.tv/wp-content/uploads/layerslider/Video-Slider-1/IQT-Logo-1.png"</div>
+      <div class="setting"><img id="settings" src="https://upload.wikimedia.org/wikipedia/commons/6/6d/Windows_Settings_app_icon.png"> </div>
+      <div class="button1"><button id="btn1" type="submit">S T A R T</button></div>
+
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+         <h1>WELCOME ON BOARD!</h1>
+       <a href="team.html"> <button id="modal-button"  >GET STARTED</button></a>
+        </div>
+      
+     
+    </div>
+
+      <div class="button2"><button id="btn2" type="submit">TROPHIES🏆</button></div>
+    </div>
+    <audio src="Timaya - I Can't Kill Myself (Official Video).mp3" controls></audio>
+    </div>
+
+    
+     <script>
+       window.onload = function() {
+    document.getElementById("my_audio").play();
+}
+
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("btn1");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+</body>
+</html>
